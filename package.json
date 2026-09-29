@@ -1,0 +1,26 @@
+{
+  "name": "post-it",
+  "version": "1.0.0",
+  "description": "POST-IT — a Telegram bot that keeps your notes like sticky notes. Send it anything, it remembers.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "notes",
+    "express",
+    "telegraf"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "telegraf": "^4.16.3"
+  }
+}
